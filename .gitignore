@@ -302,3 +302,6 @@ dist
 # Docker override file
 docker-compose.override.yml
 docker-compose.override.yaml
+
+# Ignore local binary
+bin/
