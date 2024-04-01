@@ -305,3 +305,6 @@ docker-compose.override.yaml
 
 # Ignore local binary
 bin/
+
+# Ignore .ollama symbolic link directory
+.ollama
