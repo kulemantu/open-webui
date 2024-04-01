@@ -1,0 +1,3 @@
+# Add to /etc/hosts file 
+# To use with nginx container in docker-compose.override.local-nginx.yml
+127.0.0.1 ollama.local
