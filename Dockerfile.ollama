@@ -1,0 +1,13 @@
+FROM alpine:latest
+
+# Copy your local Ollama binary
+COPY bin/ollama /usr/local/bin/ollama
+
+# Set the binary to be executable
+RUN chmod +x /usr/local/bin/ollama
+
+# Set up your preferred work directory
+WORKDIR /root
+
+# Command to run your Ollama binary
+CMD ["/usr/local/bin/ollama"]

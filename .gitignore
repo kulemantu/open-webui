@@ -298,3 +298,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Docker override file
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Ignore local binary
+bin/
+
+# Ignore .ollama symbolic link directory
+.ollama
